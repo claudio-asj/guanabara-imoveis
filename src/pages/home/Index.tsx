@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -38,9 +37,7 @@ export default function Home() {
 
   return (
     <div className="bg-background">
-      <Header />
 
-      {/* Seção principal com a imagem de fundo - NÃO FOI ALTERADA */}
       <main className="relative bg-cover bg-center min-h-[70vh] max-w-7xl mx-auto mt-8 rounded-2xl flex items-end md:items-center text-white p-8 bg-[url('bg-main.png')] pb-32">
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent md:bg-gradient-to-r md:from-black/80 md:to-transparent rounded-2xl"></div>
         <div className="relative z-10 flex flex-col items-center md:items-start text-center md:text-left w-full md:w-2/3">

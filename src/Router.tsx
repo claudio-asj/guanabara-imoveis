@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import Home from "./pages/home";
+import Home from "./pages/home/Index";
 
 export function Router() {
   return(
